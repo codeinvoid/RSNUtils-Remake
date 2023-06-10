@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "org.pio.rsn.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "command.BannedCommandMixin",
+    "command.WhiteListCommandMixin",
+    "server.MinecraftServerVersionMixin",
+    "server.PlayerManager",
+    "server.ServerLoginNetworkHandleMixin",
+    "server.ServerVersionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
